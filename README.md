@@ -4,8 +4,8 @@
 It downloads all the contents of the Shared Google Drive link. It helps users download the files without creating zip.
 
 # Usage:
-- Step1- Download the project in your system and extract the zip file. Users using gitclone need not to extract the zip file. 
-- Step2- run command cd sharedDriveDownload
+- Step1- Download the project either using the ``` Download ZIP ``` inside ```< > Code``` button and extract it or you can clone it using ``` git clone https://github.com/mayank-sharma-gwl/sharedDriveDownload.git ```
+- Step2- run command ```cd sharedDriveDownload```
 - Step3- run command ```pip install -r requirements.txt``` || if this doesn't works use ```pip3 install -r requirements.txt```
 - Step4- To use the script, enter ```FOLDER_ID``` which can be found in the shared google drive link. For example if the link is ```https://drive.google.com/drive/folders/169iaKQclsC3FripZ5BtcsZNQ0j683SGE```, then the ```FOLDER ID```is ```169iaKQclsC3FripZ5BtcsZNQ0j683SGE```.
 - Step5- Copy the id and paste it inside the file gDrive.py at line number 9 as shown  
