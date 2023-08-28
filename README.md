@@ -1,7 +1,7 @@
 
 # Project Title
 
-It downloads all the contents of the Shared Google Drive link.
+It downloads all the contents of the Shared Google Drive link. It helps users download the files without creating zip.
 
 # Usage:
 - Step1- Download the project in your system and extract the zip file. Users using gitclone need not to extract the zip file. 
@@ -12,3 +12,4 @@ It downloads all the contents of the Shared Google Drive link.
 - Step6- run the python file using command python3 gDrive.py
 
 - All the downloaded contents will be available in downloadd folder inside the current directory i.e. sharedDriveDownload
+- The 'cred.json' file will only be functional until August 30, 2023, and is intended for BITS Pilani users ONLY.
