@@ -13,3 +13,4 @@ It downloads all the contents of the Shared Google Drive link. It helps users do
 
 - All the downloaded contents will be available in downloadd folder inside the current directory i.e. sharedDriveDownload
 - The 'cred.json' file will only be functional until August 30, 2023, and is intended for BITS Pilani users ONLY.
+- make sure you have python installed on your system
