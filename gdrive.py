@@ -6,6 +6,7 @@ from googleapiclient.http import MediaIoBaseDownload
 
 # Google Drive API scope
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+FOLDER_ID = ''
 
 def authenticate():
     flow = InstalledAppFlow.from_client_secrets_file(
@@ -60,12 +61,12 @@ def main():
     creds = authenticate()
     service = build('drive', 'v3', credentials=creds)
 
-    parent_folder = input("Enter the parent folder path where files will be saved: ")
+    parent_folder = 'downloads'
     if not os.path.exists(parent_folder):
         print("The specified parent folder does not exist.")
         return
 
-    download_folder('1cC1kkGBIxM7Tc9OPt62vHrb7xg1wTCZP', service, parent_path=parent_folder)
+    download_folder(FOLDER_ID, service, parent_path=parent_folder)
 
 if __name__ == '__main__':
     main()
