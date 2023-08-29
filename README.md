@@ -15,7 +15,8 @@ It downloads all the contents of the Shared Google Drive link. It helps users do
   > 
   > Make sure that the ```FOLDER_ID``` is inside the single quotation marks.
 
-- Step6- Run the python file using command ```python3 gDrive.py```
+- Step6- Create a folder named as ```downloads``` inside the folder where the script is present.
+- Step7- Run the python file using command ```python3 gDrive.py```
 
 - All the downloaded contents will be available in downloadd folder inside the current directory i.e. sharedDriveDownload
   > The 'cred.json' file will only be functional until August 30, 2023, and is intended for BITS Pilani users ONLY.
